@@ -1,8 +1,22 @@
-* {
-  font-family: Georgia !important;
-}
-
 :root {
   --darkBlue: rgb(2, 30, 115);
   --lightGray: rgb(247, 247, 247);
+}
+
+* {
+  font-family: Georgia !important;
+}
+body {
+  background-color: var(--lightGray);
+}
+
+footer a {
+  height: 60px;
+  position: relative;
+  top: 7px;
+  left: calc(50% - 30px);
+}
+
+footer a img {
+  height: 60px;
 }

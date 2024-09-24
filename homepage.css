@@ -8,7 +8,7 @@ header,
 section,
 main {
   max-width: 1440px;
-  margin: auto;
+  margin: 0 auto;
 }
 header .bg-holder {
 }
@@ -27,6 +27,72 @@ section {
   background-color: var(--lightGray);
   text-align: center;
   padding: 25px;
+}
+
+.card {
+  width: 50%;
+  max-width: 1000px;
+  min-width: 300px;
+  border-radius: 20px;
+  height: 120px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 40px;
+  overflow: hidden;
+  position: relative;
+}
+.card img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.card p {
+  position: absolute;
+  z-index: 20;
+  top: 40px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
+
+.card1 img {
+  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(250deg);
+  position: relative;
+}
+
+.card2 img {
+  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(150deg);
+  position: relative;
+  top: -100px;
+}
+
+.card3 img {
+  filter: brightness(50%) sepia(1) saturate(1000%) hue-rotate(300deg);
+  position: relative;
+  top: -30px;
+}
+
+.card4 img {
+  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(100deg);
+  position: relative;
+  top: -50px;
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    border-radius: 30px;
+    height: 250px;
+    margin: 80px auto;
+    font-size: 100px;
+  }
+  .card p {
+    top: 85px;
+  }
+  .card img {
+    border-radius: 30px;
+  }
 }
 
 footer {

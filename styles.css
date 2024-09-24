@@ -1,0 +1,8 @@
+* {
+  font-family: Georgia !important;
+}
+
+:root {
+  --darkBlue: rgb(2, 30, 115);
+  --lightGray: rgb(247, 247, 247);
+}

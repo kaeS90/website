@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+header,
+section,
+main {
+  max-width: 1440px;
+  margin: auto;
+}
+header .bg-holder {
+}
+header .bg-holder img {
+  width: 100%;
+  filter: sepia(50%) hue-rotate(190deg) saturate(100%);
+}
+.logo {
+  width: 40%;
+  max-width: 250px;
+  position: absolute;
+  bottom: 10%;
+}
+
+section {
+  background-color: var(--lightGray);
+  text-align: center;
+  padding: 25px;
+}
+
+footer {
+  background-color: var(--darkBlue);
+  height: 75px;
+}

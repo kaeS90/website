@@ -1,0 +1,28 @@
+.title2 img {
+  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(150deg);
+  position: relative;
+  top: -100px;
+}
+
+main p {
+  margin: 20px;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+main {
+  margin-bottom: 115px;
+}
+
+.me {
+  float: right;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  overflow: hidden;
+}
+
+.me img {
+  width: 100%;
+}

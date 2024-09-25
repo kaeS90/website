@@ -44,6 +44,7 @@ section {
 .card img {
   border-radius: 20px;
   width: 100%;
+  transition: 0.3s;
 }
 
 .card p {
@@ -58,8 +59,11 @@ section {
 }
 
 .card1 img {
-  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(250deg);
+  filter: brightness(20%) sepia(1) saturate(1000%) hue-rotate(250deg);
   position: relative;
+}
+a:hover .card1 img {
+  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(250deg);
 }
 
 .card2 img {
@@ -67,17 +71,26 @@ section {
   position: relative;
   top: -100px;
 }
+a:hover .card2 img {
+  filter: brightness(40%) sepia(1) saturate(1000%) hue-rotate(150deg);
+}
 
 .card3 img {
   filter: brightness(50%) sepia(1) saturate(1000%) hue-rotate(300deg);
   position: relative;
   top: -30px;
 }
+a:hover .card3 img {
+  filter: brightness(70%) sepia(1) saturate(1000%) hue-rotate(300deg);
+}
 
 .card4 img {
-  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(100deg);
+  filter: brightness(20%) sepia(1) saturate(1000%) hue-rotate(100deg);
   position: relative;
   top: -50px;
+}
+a:hover .card4 img {
+  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(100deg);
 }
 
 @media screen and (min-width: 992px) {
@@ -93,9 +106,4 @@ section {
   .card img {
     border-radius: 30px;
   }
-}
-
-footer {
-  background-color: var(--darkBlue);
-  height: 75px;
 }

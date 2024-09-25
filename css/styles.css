@@ -1,0 +1,48 @@
+:root {
+  --darkBlue: rgb(2, 30, 115);
+  --lightGray: rgb(247, 247, 247);
+}
+
+* {
+  font-family: Georgia !important;
+}
+body {
+  background-color: var(--lightGray);
+}
+
+.not-footer {
+  min-height: calc(100vh - 75px);
+}
+main {
+  padding-bottom: 45px !important;
+}
+
+footer {
+  background-color: var(--darkBlue);
+  height: 75px;
+}
+footer img:hover {
+  height: 70px;
+}
+
+footer a {
+  height: 60px;
+  position: relative;
+  top: 7px;
+  left: calc(50% - 30px);
+  transition: 0.3s;
+}
+
+footer a img {
+  height: 60px;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  left: calc(50% - 35px);
+  top: 3px;
+}
+
+footer a:hover img {
+  height: 70px;
+}

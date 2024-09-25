@@ -1,0 +1,96 @@
+header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+header,
+section,
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+header .bg-holder {
+  height: 300px;
+  overflow: hidden;
+}
+header .bg-holder img {
+  position: relative;
+  bottom: 220px;
+  width: 100%;
+  filter: sepia(50%) hue-rotate(190deg) saturate(100%);
+}
+.logo {
+  width: 40%;
+  max-width: 150px;
+  position: absolute;
+  bottom: 10%;
+}
+
+section {
+  background-color: var(--lightGray);
+  text-align: center;
+  padding: 25px;
+}
+
+.title {
+  width: 20%;
+  max-width: 1000px;
+  min-width: 300px;
+  border-radius: 20px;
+  height: 120px;
+  margin: 40px 0;
+  text-align: right;
+  font-size: 48px;
+  overflow: hidden;
+  position: relative;
+}
+.title img {
+  border-radius: 20px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.title h1 {
+  position: absolute;
+  z-index: 20;
+  top: 35px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  color: white;
+  padding-right: 15px;
+}
+
+.card2 img {
+  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(150deg);
+  position: relative;
+  top: -100px;
+}
+a:hover .card2 img {
+  filter: brightness(40%) sepia(1) saturate(1000%) hue-rotate(150deg);
+}
+
+.card3 img {
+  filter: brightness(50%) sepia(1) saturate(1000%) hue-rotate(300deg);
+  position: relative;
+  top: -30px;
+}
+a:hover .card3 img {
+  filter: brightness(70%) sepia(1) saturate(1000%) hue-rotate(300deg);
+}
+
+.card4 img {
+  filter: brightness(20%) sepia(1) saturate(1000%) hue-rotate(100deg);
+  position: relative;
+  top: -50px;
+}
+a:hover .card4 img {
+  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(100deg);
+}
+
+.under-construction {
+  width: 60%;
+  display: block;
+  margin: auto;
+}

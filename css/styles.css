@@ -46,3 +46,92 @@ footer a:hover {
 footer a:hover img {
   height: 70px;
 }
+
+/* Variables */
+:root {
+  --red: rgb(119, 119, 220);
+}
+
+/* Global styles */
+* {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  background-color: var(--red);
+}
+
+/* Form styling */
+form {
+  position: relative;
+  display: inline-block;
+  max-width: 700px;
+  min-width: 500px;
+  box-sizing: border-box;
+  padding: 30px 25px;
+  border-radius: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hamburger icon styling */
+.menu-icon {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  background-color: white;
+  right: 15px;
+  top: 15px;
+  z-index: 100;
+  border-radius: 8px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+}
+
+/* Hide navigation menu by default */
+.nav-menu {
+  display: none;
+  background-color: #333;
+  position: absolute;
+  top: 56px;
+  right: 10px;
+  width: 200px;
+  z-index: 101;
+}
+
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu ul li {
+  text-align: center;
+}
+
+.nav-menu ul li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu ul li a:hover {
+  background-color: #575757;
+}
+
+/* When the menu is active */
+.nav-menu.active {
+  display: block;
+}

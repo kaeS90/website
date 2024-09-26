@@ -9,16 +9,31 @@ main p {
   font-size: 22px;
   line-height: 1.2;
 }
-
-.me {
-  float: right;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  margin: 15px;
-  overflow: hidden;
+h2 {
+  font-size: 40px;
+  font-weight: bolder;
 }
-
-.me img {
-  width: 100%;
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+ul {
+  margin-left: 55px;
+}
+ul li:before {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url(../images/check-mark-icon-transparent-13.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -35px;
+  margin-top: 6px;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+li {
+  margin: 10px 0;
 }

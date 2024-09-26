@@ -1,5 +1,5 @@
 .title4 img {
-  filter: brightness(20%) sepia(1) saturate(1000%) hue-rotate(100deg);
+  filter: brightness(20%) sepia(1) saturate(500%) hue-rotate(100deg);
   position: relative;
   top: -50px;
 }
@@ -17,10 +17,10 @@ h3 {
   font-size: 32px;
   font-weight: bold;
 }
-ul {
+main ul {
   margin-left: 55px;
 }
-ul li:before {
+main ul li:before {
   content: "";
   display: inline-block;
   height: 20px;

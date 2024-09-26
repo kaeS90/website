@@ -1,5 +1,5 @@
 .title2 img {
-  filter: brightness(30%) sepia(1) saturate(1000%) hue-rotate(150deg);
+  filter: brightness(30%) sepia(1) saturate(500%) hue-rotate(150deg);
   position: relative;
   top: -100px;
 }
@@ -25,4 +25,11 @@ main {
 
 .me img {
   width: 100%;
+}
+
+@media only screen and (max-width: 545px) {
+  .me {
+    float: none;
+    margin: auto;
+  }
 }

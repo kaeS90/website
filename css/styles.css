@@ -68,7 +68,6 @@ form {
   position: relative;
   display: inline-block;
   max-width: 700px;
-  min-width: 500px;
   box-sizing: border-box;
   padding: 30px 25px;
   border-radius: 40px;
@@ -111,6 +110,12 @@ ul {
   z-index: 101;
 }
 
+@media screen and (min-width: 1450px) {
+  .menu-icon,
+  .nav-menu {
+    right: calc(50vw - 710px);
+  }
+}
 .nav-menu ul {
   margin: 0;
   padding: 0;
@@ -134,4 +139,10 @@ ul {
 /* When the menu is active */
 .nav-menu.active {
   display: block;
+}
+
+@media only screen and (max-width: 969px) {
+  .bg-holder img {
+    bottom: 0 !important;
+  }
 }

@@ -57,38 +57,38 @@ section {
 }
 
 .card1 img {
-  filter: brightness(20%) sepia(1) saturate(500%) hue-rotate(250deg);
+  filter: brightness(34%) sepia(1) saturate(100%) hue-rotate(180deg);
   position: relative;
 }
 a:hover .card1 img {
-  filter: brightness(30%) sepia(1) saturate(500%) hue-rotate(250deg);
+  filter: brightness(14%) sepia(1) saturate(100%) hue-rotate(180deg);
 }
 
 .card2 img {
-  filter: brightness(30%) sepia(1) saturate(500%) hue-rotate(150deg);
+  filter: brightness(44%) sepia(1) saturate(100%) hue-rotate(180deg);
   position: relative;
   top: -100px;
 }
 a:hover .card2 img {
-  filter: brightness(40%) sepia(1) saturate(500%) hue-rotate(150deg);
+  filter: brightness(14%) sepia(1) saturate(100%) hue-rotate(180deg);
 }
 
 .card3 img {
-  filter: brightness(50%) sepia(1) saturate(500%) hue-rotate(300deg);
+  filter: brightness(114%) sepia(1) saturate(100%) hue-rotate(180deg);
   position: relative;
   top: -30px;
 }
 a:hover .card3 img {
-  filter: brightness(70%) sepia(1) saturate(500%) hue-rotate(300deg);
+  filter: brightness(44%) sepia(1) saturate(100%) hue-rotate(180deg);
 }
 
 .card4 img {
-  filter: brightness(20%) sepia(1) saturate(500%) hue-rotate(100deg);
+  filter: brightness(34%) sepia(1) saturate(100%) hue-rotate(180deg);
   position: relative;
   top: -50px;
 }
 a:hover .card4 img {
-  filter: brightness(30%) sepia(1) saturate(500%) hue-rotate(100deg);
+  filter: brightness(14%) sepia(1) saturate(100%) hue-rotate(180deg);
 }
 
 @media screen and (min-width: 992px) {

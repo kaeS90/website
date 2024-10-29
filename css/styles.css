@@ -17,8 +17,13 @@ main {
   padding-bottom: 45px !important;
 }
 
+section:first-of-type {
+  background-color: rgb(237, 181, 16);
+  padding-bottom: 0;
+}
+
 footer {
-  background-color: var(--darkBlue);
+  background-color: rgb(22, 119, 190);
   height: 75px;
 }
 footer img:hover {
@@ -69,7 +74,7 @@ form {
   display: inline-block;
   max-width: 700px;
   box-sizing: border-box;
-  padding: 30px 25px;
+  padding: 30px 25px 10px;
   border-radius: 40px;
 }
 
@@ -85,7 +90,7 @@ ul {
   cursor: pointer;
   padding: 10px;
   position: absolute;
-  background-color: white;
+  background-color: #515151;
   right: 15px;
   top: 15px;
   z-index: 100;
@@ -95,7 +100,7 @@ ul {
 .bar {
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: white;
   margin: 5px 0;
 }
 

@@ -14,12 +14,16 @@ header .bg-holder img {
   width: 100%;
   filter: sepia(50%) hue-rotate(190deg) saturate(100%);
 }
-.logo {
+.logo-holder {
   width: 40%;
   max-width: 250px;
   position: absolute;
   bottom: 10%;
 }
+.logo {
+  max-width: 100%;
+}
+
 @media screen and (min-width: 767px) {
   header .bg-holder {
     height: 300px;
@@ -29,7 +33,7 @@ header .bg-holder img {
     position: relative;
     bottom: 220px;
   }
-  .logo {
+  .logo-holder {
     max-width: 150px;
   }
 }
@@ -46,17 +50,25 @@ main {
   width: 20%;
   max-width: 1000px;
   min-width: 300px;
-  border-radius: 20px;
   height: 120px;
   margin: 40px 0;
   text-align: right;
   font-size: 48px;
   overflow: hidden;
   position: relative;
-  left: -35px;
+  left: -15px;
+  width: 60px;
+  height: 100px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    80% calc(110% - 60px),
+    100% 100%,
+    0% 100%,
+    0% 0%
+  );
 }
 .title img {
-  border-radius: 20px;
   width: 100%;
   transition: 0.3s;
 }
@@ -64,12 +76,12 @@ main {
 .title h1 {
   position: absolute;
   z-index: 20;
-  top: 35px;
+  top: 22px;
   margin: auto;
   left: 0;
   right: 0;
   color: white;
-  padding-right: 15px;
+  padding-right: 64px;
 }
 
 .card2 img {

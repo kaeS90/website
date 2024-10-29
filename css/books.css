@@ -1,4 +1,4 @@
 .title1 img {
-  filter: brightness(20%) sepia(1) saturate(500%) hue-rotate(250deg);
+  filter: brightness(34%) sepia(1) saturate(100%) hue-rotate(180deg);
   position: relative;
 }

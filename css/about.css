@@ -1,5 +1,5 @@
 .title2 img {
-  filter: brightness(30%) sepia(1) saturate(500%) hue-rotate(150deg);
+  filter: brightness(44%) sepia(1) saturate(100%) hue-rotate(180deg);
   position: relative;
   top: -100px;
 }
@@ -15,11 +15,10 @@ main {
 }
 
 .me {
-  float: right;
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  margin: 15px;
+  margin: auto;
   overflow: hidden;
 }
 
@@ -27,9 +26,18 @@ main {
   width: 100%;
 }
 
-@media only screen and (max-width: 545px) {
-  .me {
-    float: none;
-    margin: auto;
+@media only screen and (min-width: 945px) {
+  main {
+    margin-bottom: 115px;
+    display: flex;
+  }
+
+  .about-me-text {
+    width: 60%;
+  }
+
+  .me-holder {
+    width: 30%;
+    padding: 7%;
   }
 }

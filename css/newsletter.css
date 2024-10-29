@@ -1,5 +1,5 @@
 .title3 img {
-  filter: brightness(50%) sepia(1) saturate(500%) hue-rotate(300deg);
+  filter: brightness(114%) sepia(1) saturate(100%) hue-rotate(180deg);
   position: relative;
   top: -30px;
 }

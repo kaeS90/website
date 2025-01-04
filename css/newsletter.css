@@ -3,3 +3,9 @@
   position: relative;
   top: -30px;
 }
+
+main p {
+  margin: 20px;
+  font-size: 22px;
+  line-height: 1.2;
+}
